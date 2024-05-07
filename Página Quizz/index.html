@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz sobre Energias Renováveis</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Quiz sobre Energias Renováveis</h1>
+    <div class="nav-links">
+      <a href="/index.html">Principal</a>
+      <a href="/Energia Solar/index.html">Energia Solar</a>
+      <a href="/Energia Eólica/Index.html">Energia Eólica</a>
+      <a href="/Energia Hidroeletrica/Index.html">Energia Hidroelétrica</a>
+      <li><a href="index.html">Quizz Interativo</a></li>
+    </div>
+  </header>
+
+  <main id="quiz">
+    <div class="explicacao">
+      <p>Teste seus conhecimentos sobre Energias Renováveis!</p>
+    </div>
+    <div class="progress-bar">
+      <div class="progress-bar-inner" style="width: 0;"></div>
+    </div>
+    <h2 id="pergunta"></h2>
+    <ul id="opcoes">
+    </ul>
+    <p id="feedback"></p>
+  </main>
+
+  <footer>
+    <div class="resultado" id="resultado-final"></div>
+    <button class="btn-compartilhar" onclick="compartilharResultado()">Compartilhar no Facebook</button>
+    <button class="btn-compartilhar btn-compartilhar-twitter" onclick="compartilharTwitter()">Compartilhar no Twitter</button>
+    <p>&copy; 2024 - Energias Renováveis Quiz</p>
+    <p>Desenvolvido por: Allison Godoy, Fabio Miguel, Jean Carlos, João Augusto, Lucas Gavitti e Luis Gustavo</p>
+  </footer>
+
+  <!-- Botão "Começar" abaixo do cabeçalho -->
+  <button class="btn-comecar" onclick="comecarQuiz()">Começar o Quiz</button>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
